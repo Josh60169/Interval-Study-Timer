@@ -1,0 +1,18 @@
+{
+  "name": "jquery-and-bootstrap-practice",
+  "version": "1.0.0",
+  "description": "Practice using JQuery and Bootstrap. Trying to make a website for studying.",
+  "main": "index.js",
+  "scripts": {
+    "buildSass": "nodemon -e scss -x \"sass scss/mainstyle.scss mainstyle.css\""
+  },
+  "keywords": [],
+  "author": "Yash Vihan Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.75.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
